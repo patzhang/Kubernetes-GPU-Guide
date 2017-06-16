@@ -180,7 +180,7 @@ I will use wave-works, just because of my personal preference ;)
 ```
 kubectl apply -f https://git.io/weave-kube-1.6
 ```
-**5.II** You are ready to go, now check that pods that all pods are online to confirm that everything is working ;)
+**7** You are ready to go, now check that pods that all pods are online to confirm that everything is working ;)
 ```
 kubectl get pods --all-namespaces
 ```
@@ -280,7 +280,7 @@ export KUBECONFIG=~/.kube/admin.conf
 ```
 You are ready to use kubectl on you local client.
 
-**3.II** You can test by listing all your pods
+**4** You can test by listing all your pods
 ```
 kubectl get pods --all-namespaces
 ```
